@@ -19,6 +19,8 @@ Dark Slate - 697780
 Light Slate - 829199
 Yellow - fffd73 */
 
+/*Main pages*/
+
 .home {
     margin: 0 0 0 0;
     background-image: url(Assets/raenytuesdaybackground.jpg);
@@ -28,8 +30,38 @@ Yellow - fffd73 */
 
 .main {
     margin: 0;
-    background-color: white;
+    background-color: #FEFEFE;
 }
+
+.page {
+    padding: 120px 100px 120px 100px;
+text-align: center;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+    text-align: center;
+    width: 30%;
+    margin: 15px;
+}
+
+.middle {
+    float: left;
+    text-align: center;
+    width: 30%;
+    margin: 15px;
+}
+
+.right {
+    float: left;
+    text-align: center;
+    width: 30%;
+    margin: 15px;
+    
+}
+
+/*Header and Footer*/
 
 .navbar {
     display: block;
@@ -88,6 +120,7 @@ Yellow - fffd73 */
 
 }
 
+
 #thispage {
     text-decoration: none;
     color:lightgray
@@ -105,3 +138,69 @@ Yellow - fffd73 */
     left: 0px;
 }
 
+
+/*Fonts*/
+
+
+h1 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 30px;
+    margin: 0 0 0 0;
+    color: lightgray;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 15px 0 15px 0;
+    color: lightgray;
+}
+
+h2 a {
+        font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 15px 0 15px 0;
+    color: lightgray;
+    text-decoration: none;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 14px;
+    margin: 0 0 0 0;
+    color: lightgray;
+    
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-size: 15px;
+}
+
+h5 {
+    font-family: 'Roboto Slab', sans-serif;
+    color: #697780;
+    font-size: 40px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+h6 {
+    font-family: 'Roboto Slab', sans-serif;
+    color: #697780;
+    font-size: 30px;
+    margin: 0;
+    font-weight: lighter; 
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    color: lightgray;
+    font-size: 12px;
+    
+    
+}
